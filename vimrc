@@ -1,8 +1,8 @@
 set nocompatible              " be iMproved
 filetype off                  " required!
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-Bundle 'gmarik/vundle'
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Bundle 'gmarik/Vundle.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Command-T'
 Bundle 'vim-ruby/vim-ruby'
@@ -14,6 +14,7 @@ Bundle 'slim-template/vim-slim'
 Bundle 'ack.vim'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'vim-auto-save'
+call vundle#end()
 filetype plugin indent on     " required!
 
 set expandtab
